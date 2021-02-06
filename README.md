@@ -12,7 +12,7 @@
 Profile Website
 
 ## Usage
-Link :  https://congmul.github.io/jehyunjung/
+Link :  https://congmul.github.io/portfolio_react/
 <img src="./src/assets/img/operating.gif" width="800" >
 
 ## Installation 
