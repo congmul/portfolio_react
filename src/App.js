@@ -11,7 +11,7 @@ function App() {
     <div>
       <Router>
       <Nav />
-      <Route exact path={["/", "/home"]}>
+      <Route exact path={["/", "/portfolio_react/"]}>
           <Home />
         </Route>
         <Route path="/project">

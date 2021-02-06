@@ -15,9 +15,9 @@ function NavComponent() {
           <Link to="/" className="myNav">Home</Link>
           <Link to="/project" className="myNav">Project</Link>
           <Link to="/contact" className="myNav">Contact</Link>
-          <Nav.Link href={Resume}>Resume</Nav.Link>
-          <Nav.Link href="https://www.linkedin.com/in/jehyun-jung-bb247813b/">LinkedIn</Nav.Link>
-          <Nav.Link href="https://github.com/congmul">GitHub</Nav.Link>
+          <Nav.Link href={Resume} target="_blank">Resume</Nav.Link>
+          <Nav.Link href="https://www.linkedin.com/in/jehyun-jung-bb247813b/" target="_blank">LinkedIn</Nav.Link>
+          <Nav.Link href="https://github.com/congmul" target="_blank">GitHub</Nav.Link>
         </Nav>
       </Navbar.Collapse>
     </Navbar>
