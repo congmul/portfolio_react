@@ -1,0 +1,18 @@
+.myfooter{
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    background-color: black;
+    z-index: 1;
+    p {
+        margin-top: 1rem;
+        color: white;
+        text-align: center;
+    }
+}
+
+.footerDivider{
+    border: 0;
+    border-top: 10px solid white;
+}
+
