@@ -1,3 +1,13 @@
 .myNavBar{
     background-color: black;
 }
+
+.myNav{
+    margin: auto;
+    color: grey;
+    margin-right: 15px;
+    &:hover{
+        color:white;
+        text-decoration: none;
+    }
+}

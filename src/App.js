@@ -9,8 +9,8 @@ import Contact from './pages/Contact';
 function App() {
   return (
     <div>
-      <Nav />
       <Router>
+      <Nav />
       <Route exact path={["/", "/home"]}>
           <Home />
         </Route>
