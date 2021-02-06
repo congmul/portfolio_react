@@ -8,11 +8,11 @@ function NavComponent() {
 
   return (
     <Navbar className="myNavBar" variant="dark">
-      <Navbar.Brand href="/">Jehyun Jung</Navbar.Brand>
+      <Navbar.Brand href="#">Jehyun Jung</Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="mr-auto">
-          <Link to="/home" className="myNav">Home</Link>
+          <Link to="/" className="myNav">Home</Link>
           <Link to="/project" className="myNav">Project</Link>
           <Link to="/contact" className="myNav">Contact</Link>
           <Nav.Link href={Resume}>Resume</Nav.Link>
